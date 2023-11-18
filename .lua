@@ -22,19 +22,17 @@ timeLabel.TextColor3 = Color3.new(1, 1, 1)
 timeLabel.Parent = frame
 timeLabel.BackgroundTransparency = 1
 
-local musicIdTextBox = Instance.new("TextBox")
+--[[local musicIdTextBox = Instance.new("TextBox")
 musicIdTextBox.Size = UDim2.new(0, 150, 0, 20)
 musicIdTextBox.Position = UDim2.new(0, 25, 0, 40)
 musicIdTextBox.PlaceholderText = "Masukkan ID Musik"
 musicIdTextBox.Parent = screenGui
-musicIdTextBox.Visible = false
 
 local playButton = Instance.new("TextButton")
 playButton.Size = UDim2.new(0, 50, 0, 20)
 playButton.Position = UDim2.new(0, 180, 0, 40)
 playButton.Text = "Putar"
-playButton.Parent = screenGui
-playButton.Visible = false
+playButton.Parent = screenGui]]
 
 local musicLength = 0
 local currentTime = 0
