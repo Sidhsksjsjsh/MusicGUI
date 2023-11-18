@@ -1,5 +1,5 @@
-if player.PlayerGui:FindFirstChild("CLOCK") then
-    player.PlayerGui:FindFirstChild("CLOCK"):Destroy()
+if game.Players.LocalPlayer.PlayerGui:FindFirstChild("CLOCK") then
+    game.Players.LocalPlayer.PlayerGui:FindFirstChild("CLOCK"):Destroy()
 end
 
 local player = game.Players.LocalPlayer
