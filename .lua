@@ -27,7 +27,7 @@ musicIdTextBox.Size = UDim2.new(0, 150, 0, 20)
 musicIdTextBox.Position = UDim2.new(0, 25, 0, 40)
 musicIdTextBox.PlaceholderText = "Masukkan ID Musik"
 musicIdTextBox.Parent = screenGui
-musicIdTextBox.visible = false
+musicIdTextBox.Visible = false
 
 local playButton = Instance.new("TextButton")
 playButton.Size = UDim2.new(0, 50, 0, 20)
