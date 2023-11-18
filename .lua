@@ -7,6 +7,7 @@ local gui = player.PlayerGui
 local screenGui = Instance.new("ScreenGui")
 screenGui.Parent = gui
 screenGui.Name = "CLOCK"
+screenGui.ResetOnSpawn = false
 
 local frame = Instance.new("Frame")
 frame.Size = UDim2.new(0, 200, 0, 20)
