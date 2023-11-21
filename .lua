@@ -58,6 +58,8 @@ function updateLabelText()
     timeLabel.Text = string.format("%d:%02d / %d:%02d", minutes, seconds, totalMinutes, totalSeconds)
 end]]
 
+task.spawn(function()
 while wait() do
     timeLabel.Text = os.date("%X")
 end
+end)
